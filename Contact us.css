@@ -16,11 +16,7 @@ body {
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             width: 80%;
-            max-width: 600px;
-            display:flex;
-            justify-content:center;
-
-                    
+            max-width: 600px;         
         }
 
         .contact-container h2 {
