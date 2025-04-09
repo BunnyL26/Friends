@@ -1,13 +1,31 @@
-h1{
-    text-align:center;
-    color:white;
-    font-size:400%;
-   }
-   p {
-     color:white;
-     font-size:300%;
-   }
-   img {
-     height:700px;
-     width:900px;
-   }
+  
+    h1 {
+      text-align: center;
+      color: white;
+      font-size: 40px;
+    }
+
+    p {
+      color: white;
+      font-size: 20px; 
+      line-height: 1.5;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block; 
+      margin: 10px auto;
+    }
+
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 30px; 
+      }
+
+      p {
+        font-size: 16px; 
+      }
+    }
+  
